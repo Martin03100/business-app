@@ -1,29 +1,22 @@
 import mongoose from "mongoose";
 
 const tripSchema = new mongoose.Schema({
-    Destination:{
+    destination:{
         type: String,
         required: true,
-        enum: ['China', 'London', 'Paris'] 
     },
-    Hotel:{
+    hotel:{
         type: String,
         required: true,
-        enum: ['Hotel 1', 'Hotel 2', 'Hotel 3']
     },
-    Activity:{
+    activities:{
         type: String, 
         required: true,
-        enum: ['Aktivita 1', 'Aktivita 2', 'Aktivita 3']
     },
-    validityFrom:{
-        type: Date,
+    date:{
+        type: String,
         required: true
     },
-    validityTo:{
-        type: Date,
-        required: true
-    }
 })
 
 export default mongoose.model("Trip", tripSchema);

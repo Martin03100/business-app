@@ -1,0 +1,127 @@
+.staticContent{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0; /* príklad farby pozadia */
+    margin: 0 auto; /* Zarovnanie do stredu */
+    margin-top: 30px;
+}
+
+.tripTable{
+    width: 60%;
+    background-color: azure;
+    box-shadow: 1px 1px 8px brown;
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+    height: 400px; /* Príklad pevnej výšky */
+    overflow-y: auto; /* Povolenie vertikálneho skrolovania */
+}
+
+.addButton {
+    text-decoration: none;
+    background-color: blueviolet;
+    color: #a00000;
+    font-weight: 500;
+    box-shadow: 1px 1px 8px burlywood;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.tripTable table{
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    border: none;
+
+}
+
+.tripTable table tbody{
+    margin-top: 10px;
+}
+
+.tripTable table thead th{
+    background-color: aqua;
+    color: blue;
+    padding: 10px;
+}
+
+.tripTable table tbody td{
+    padding: 10px;
+    text-align: center;
+}
+
+.actionButtons button{
+    border: 0;
+    outline: none;
+    background-color: #ff0000;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.actionButtons a{
+    background-color: #1eff34;
+    padding: 6px 10px;
+    color: white;
+    border-radius: 5px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.tripWrapper {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9; 
+    justify-content: space-between;   
+}
+
+.tripInfo {
+    flex: 1; /* Umožňuje textu rásť a zaberáť všetok voľný priestor */
+}
+
+.actionButtons {
+    display: flex;
+    align-items: center;
+}
+
+.actionButtons button,
+.actionButtons a {
+    margin-left: 10px; /* Vzdialenosť medzi tlačítkami a textom */
+}
+
+
+
+
+
+
+.tripWrapper {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9; 
+}
+
+.tripInfo {
+    flex: 1; /* Umožňuje textu rásť a zaberáť všetok voľný priestor */
+}
+
+.actionButtons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Tlačítko bude zarovnané v strede napravo */
+    flex: 1; /* Umožní tlačítku zaberanie celého dostupného miesta */
+}
+
+.actionButtons button,
+.actionButtons a {
+    margin-left: 10px; /* Vzdialenosť medzi tlačítkami a textom */
+}

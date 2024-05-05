@@ -1,0 +1,53 @@
+.addTrip{
+    width: 25%;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 8px brown;
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.addTripForm{
+    margin-top: 20px;
+}
+
+.addTripForm .inputGroup{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.addTripForm .inputGroup label{
+    margin-bottom: 5px;
+
+}
+
+.addTripForm .inputGroup input{
+    margin-bottom: 10px;
+    padding: 13px;
+    outline: none;
+}
+
+.addTripForm .inputGroup button{
+    border: 0;
+    outline: none;
+    background-color: blueviolet;
+    color: rgb(35, 255, 226);
+    font-weight: 600;
+    padding: 13px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px brown;
+    margin-top: 20px;
+}
+
+.addTrip h3{
+    margin-top: 10px;
+}
+
+.addTripForm .inputGroup select {
+    margin-bottom: 10px;
+    padding: 13px;
+    outline: none;
+    font-size: 13px; /* přidáno zvětšení fontu */
+}

@@ -7,7 +7,7 @@ export const create = async(req,res)=>{
             return res.status(404).json({msg: "Error"});
         }    
         const saveData = await tripData.save();
-        res.status(200).json(saveData)   
+        res.status(200).json({ message: "Trip created successfully" });   
     } catch (error) {
         res.status(500).json({error: error}); 
     }
@@ -47,7 +47,7 @@ export const update = async(req,res) =>{
             return res.status(404).json({msg: "Trip not found"});
         }
         const updatedData = await Trip.findByIdAndUpdate(id, req.body, {new:true});
-        res.status(200).json(updatedData);
+        res.status(200).json({msg:"Trip updated successfully"});
     } catch (error) {
         res.status(500).json({error: error});
     }
